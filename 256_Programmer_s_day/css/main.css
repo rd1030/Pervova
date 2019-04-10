@@ -11,7 +11,7 @@ h3 {
 }
 
 p {
-
+  max-width: 1400px;
 }
 .text-spinner{
   color: #0088cc;
