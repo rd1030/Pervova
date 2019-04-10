@@ -35,14 +35,4 @@
 
 .main-menu > li:hover .sub-menu {
   display: block;
-}/* Почему не присваивается БЛОК??????*/
-
-/*
-.open-1>a{
-  background-color: #0088cc;
-  color: white;
 }
-.main-menu .open-1 a:hover {
-  background-color: #0088cc;
-}
-*/

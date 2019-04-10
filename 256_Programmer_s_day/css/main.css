@@ -1,13 +1,21 @@
 body{
   height:100%;
   width:100%;
+  font-family: Roboto, sans-serif;
 }
 h3 {
   color: #0088cc;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  font-size:25px;
+
 }
 
 p {
-  font-family: Roboto, sans-serif;
+
+}
+.text-spinner{
+  color: #0088cc;
+  margin-left:2em;
 }
 .img :hover{
    box-shadow: 0 15px 15px -10px rgba(0,0,0, .5)
@@ -41,8 +49,28 @@ p {
 .img a{
     text-decoration:none;
 }
+.map {
+  display:flex;
+  justify-content: center;
+}
+.opacity :hover {
+  opacity: 0.8;
+}
 
+.img :not(:last-child){
+  margin-right:1em;
+}
+.mems{
+  display: flex;
+  width:100%;
+  flex-wrap: wrap;
+}
+.galleria{
+  max-width: 1500px;
+  height: 800px;
+  background: #000;
+  margin-top:2em; }
 @font-face {
   font-family: Roboto;
-  src: local(Roboto), url(fonts/Roboto-Regular.ttf);
+  src: url(fonts/Roboto-Regular.ttf);
 }
